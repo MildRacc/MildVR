@@ -16,6 +16,7 @@ For the displays, I have a lot of options. All I want is 2k120fps. A lot of comp
 
 For the inside-out tracking, I plan to use a dual [OV9281](https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/Global-Shutter/1MP-OV9281-OV9282/) setup mounted into the front of the headset. In the controllers I will have an array of NIR (Near-Infrared) LEDs in a configuration similar to that of the Oculus Rift S controllers. The purpose of these NIR LEDs is to give the cameras points to track, and by arranging them in a certain configuration will allow me to determine the transform of the entire controller.
 
+(Image from [iFixit](https://www.ifixit.com/Teardown/Oculus+Rift+CV1+Teardown/60612))
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--0b2038e55ee61f919216b136d9d6f67ea3d5f1e9/image.png)
 This image shows the LED configuration of the original Oculus Rift. Having a recognizable LED configuration makes tracking more precise.
 
