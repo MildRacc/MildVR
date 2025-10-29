@@ -8,7 +8,7 @@
 
 ## 10/28/2025 - Electronics Research  
 
-Because I want my headset to be a wireless PCVR headset, I need to transmit and receive data incredibly fast. DisplayPort 1.2 transmits 21.6 Gib/s, and I'd like each eye to be about 2k120fps. I found WiGig transceivers to be the best option for this, and the particular models I'm going to use are the [HMC6300/6301 chips](https://www.mouser.com/c/?marcom=138219097).
+Because I want my headset to be a wireless PCVR headset, I need to transmit and receive data incredibly fast. DisplayPort 1.2 transmits 21.6 Gib/s, and I'd like each eye to be about 2k120fps. I found WiGig transceivers to be the best option for this, and the particular models I'm going to use are the [HMC6300/6301](https://www.mouser.com/c/?marcom=138219097) chips.
 
 I need to have a chip to decode and encode DisplayPort data going to and fro the transmitter and receiver, and the [ANX7497](https://www.analogix.com/en/products/re-timersrepeaters/anx7497) seems to be the best option for what I need. It can also compress and decompress DisplayPort data, making video transmission faster, and less of a hassle.
 
