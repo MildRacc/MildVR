@@ -22,3 +22,31 @@ This image shows the LED configuration of the original Oculus Rift. Having a rec
 
 The controllers and headset will all contain two [BMI270](https://www.mouser.com/new/bosch/bosch-sensortec-bmi270/) IMUs. The purpose of having two IMUs is for redundancy, reliability, noise reduction, and improved orientation tracking. Oculus and other high-end controllers typically use a single IMU in their controllers, but due to the fact that my inside-out tracking algorithms are likely not going to be on-par with theirs, I feel it is necessary to compensate by making IMU readings more accurate.  
 
+## 11/2/2025 - ECAD Sourcing & Controller Thoughts  
+
+I have found some ECAD models online for the connectors, and SMD components which will go on the motherboard of my headset. While researching datasheets and CAD models for parts, I discovered that Analogix does not manufacture or sell the ANX7497. Instead, they redirect to their distributors who also do not list the ANX7497 on their websites. I emailed their North American distributor to get information on the ANX7497, but in the meantime, I will be using the MCDP6150C1 instead. Below is a list of links to the CAD files I have found for the components that I know I will need.
+
+[ESP32-S3](https://www.snapeda.com/parts/ESP32-S3/Espressif%20Systems/view-part/?ref=search&t=ESP32-S3&ab_test_case=b)
+[HMC6300BG46P7 (Transmitter)](https://www.digikey.com/en/models/6072652?tab=ultralibrarian)
+[HMC6301BG46 (Receiver)](https://www.digikey.com/en/models/6072653?tab=ultralibrarian)
+[MCDP6150C1](https://www.snapeda.com/parts/MCDP6150C1/Kinetic%20Technologies/view-part/?ref=search&t=MCDP6150C1&ab_test_case=b)
+[BMI270 (IMU)](https://www.snapeda.com/parts/BMI270/Bosch%20Sensortec/view-part/?ref=search&t=BMI270)
+[CSI Connectors](https://www.snapeda.com/parts/20539-050E-01/I-PEX/view-part/?ref=search&t=FFC%20connector%200.5%20mm%20pitch&ab_test_case=b)
+[Display Connector](https://www.snapeda.com/parts/WP7B-S040VA1-R6000/JAE%20Electronics/view-part/?ref=search&t=WP7B-S040VA1)
+Display connector goes to [these displays](https://www.alibaba.com/product-detail/2-9-Inch-1440x1440-Square-HMD_1600064398346.html?spm=a2700.details.you_may_like.2.7ec531eaNuH7zq)
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzkzOSwicHVyIjoiYmxvYl9pZCJ9fQ==--ea4cd4578b2de1aa60c365047b2c6bb255ca57a9/image.png)
+These displays do not have any CAD files that I could find, but this image is available on the AliBaba listing, and is what I will be referencing going forward.
+
+I wanna take a second to talk about why I chose some of the parts I did, starting with the ESP32-S3. I considered using a Raspberry Pi CM4, but after some research, I didn't like how much space it took up. I decided that it would make more sense to go with an SoC. The first SoC I considered was one of the LPC11Uxx SoCs, but I decided that due to the lack of knowledge or online support for this processor, it a poor contender for the main CPU for the headset. Instead I chose the ESP32-S3 due to how well known the ESP32 SoCs are, as well as the fact that it has built in WiFi, Bluetooth, and how much storage it has. This SoC should be easy to program in Rust, and easy for beginners to modify in an IDE like ArduinoIDE or PlatformIO.
+The reason for picking the BMI270 is that previous IMUs, such as the MPU6500, 6050, and 9250 have been discontinued, and are now considered obsolete. The BMI270 is a newer alternative, and it is an all-around a better IMU, with its only downside, being that it requires configuration and more careful calibration than the MPU IMUs.
+Since the ANX7497 is not available in a consumer-friendly way, I had to find an alternative. The closest chip I could find to the ANX7497 was the MCDP6150C1. It has very subtle differences to the ANX7497, but from what I've read, it can do exactly what I need.
+
+I also want to share some of my thoughts about what I want to do about the controllers:
+I don't have any.
+While I do want this headset to have accompanying controllers, I don't want to think too much about them at the moment. The reason is that they're easy to make.
+I already have a rough idea for how the controllers would work. The controllers would, more or less, function identically to a standard Oculus Rift controller. They will have analog sticks, regular triggers, grip triggers, and face buttons. The only difference is that the controllers will also have two BMI270 IMUs for spatial tracking.
+
+I also plan to make the controllers wireless (of course), and use Bluetooth. My Oculus Rift S controllers use Bluetooth, and I have never had any issues that a simple battery swap couldn't fix, so using Bluetooth will make everything incredibly easy.
+
+Now with all that being said: I do want other non-conventional or homemade controllers to work as well. I like the idea of being able to build a VR glove, like the [LucidVR](https://github.com/LucidVR/lucidgloves) gloves, and have it work perfectly, hopefully without drivers.  
+
