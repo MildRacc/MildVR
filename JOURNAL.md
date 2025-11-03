@@ -29,7 +29,7 @@ I have found some ECAD models online for the connectors, and SMD components whic
 [ESP32-S3](https://www.snapeda.com/parts/ESP32-S3/Espressif%20Systems/view-part/?ref=search&t=ESP32-S3&ab_test_case=b)
 [HMC6300BG46P7 (Transmitter)](https://www.digikey.com/en/models/6072652?tab=ultralibrarian)
 [HMC6301BG46 (Receiver)](https://www.digikey.com/en/models/6072653?tab=ultralibrarian)
-[MCDP6150C1](https://www.snapeda.com/parts/MCDP6150C1/Kinetic%20Technologies/view-part/?ref=search&t=MCDP6150C1&ab_test_case=b)
+[MCDP6150C1 (ANX7497 Replacement)](https://www.snapeda.com/parts/MCDP6150C1/Kinetic%20Technologies/view-part/?ref=search&t=MCDP6150C1&ab_test_case=b)
 [BMI270 (IMU)](https://www.snapeda.com/parts/BMI270/Bosch%20Sensortec/view-part/?ref=search&t=BMI270)
 [CSI Connectors](https://www.snapeda.com/parts/20539-050E-01/I-PEX/view-part/?ref=search&t=FFC%20connector%200.5%20mm%20pitch&ab_test_case=b)
 [Display Connector](https://www.snapeda.com/parts/WP7B-S040VA1-R6000/JAE%20Electronics/view-part/?ref=search&t=WP7B-S040VA1)
