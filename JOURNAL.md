@@ -42,8 +42,9 @@ The reason for picking the BMI270 is that previous IMUs, such as the MPU6500, 60
 Since the ANX7497 is not available in a consumer-friendly way, I had to find an alternative. The closest chip I could find to the ANX7497 was the MCDP6150C1. It has very subtle differences to the ANX7497, but from what I've read, it can do exactly what I need.
 
 I also want to share some of my thoughts on what I want to do about the controllers:
-While I do want this headset to have accompanying controllers, I don't want to think too much about them at the moment. The reason is that they're easy to make.
-I already have a rough idea of how the controllers would work. The controllers would, more or less, function identically to a standard Oculus Rift controller. They will have analog sticks, regular triggers, grip triggers, and face buttons. The only difference is that the controllers will also have two BMI270 IMUs for spatial tracking.
+I don't have any.
+While I do want this headset to have accompanying controllers, I don't want to think about them at the moment. The reason is that they're easy to make.
+The controllers would, more or less, function identically to a standard Oculus Rift controller. They will have analog sticks, regular triggers, grip triggers, and face buttons. The only difference is that the controllers will also have two BMI270 IMUs for spatial tracking. There's not a whole lot to think about on this front.
 
 I also plan to make the controllers wireless (of course), and use Bluetooth. My Oculus Rift S controllers use Bluetooth, and I have never had any issues that a simple battery swap couldn't fix, so using Bluetooth will make everything incredibly easy.
 
