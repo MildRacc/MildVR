@@ -6,4 +6,5 @@
   (lib (name "MCDP6150C1")(type "KiCad")(uri "${KIPRJMOD}/MCDP6150C1.kicad_sym")(options "")(descr ""))
   (lib (name "(CSI) 20539-050E-01")(type "KiCad")(uri "${KIPRJMOD}/(CSI) 20539-050E-01.kicad_sym")(options "")(descr ""))
   (lib (name "(DSI) WP7B-S040VA1-R6000")(type "KiCad")(uri "${KIPRJMOD}/(DSI) WP7B-S040VA1-R6000.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7365-WG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7365-WG-7.kicad_sym")(options "")(descr ""))
 )

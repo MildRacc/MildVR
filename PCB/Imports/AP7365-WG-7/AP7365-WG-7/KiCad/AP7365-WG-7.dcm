@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7365-WG-7
+D DiodesZetex AP7365-WG-7, LDO Voltage Regulator, Adjustable 600mA, 0.8  5 V +/-2%, 5-Pin SOT-25
+K
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP7365-WG-7_C264087.pdf
+$ENDCMP
+#
+#End Doc Library

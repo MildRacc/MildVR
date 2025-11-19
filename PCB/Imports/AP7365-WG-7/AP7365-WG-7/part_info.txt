@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP7365-WG-7
+PartCategory=Power Supply
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.3
+Released=2020-02-05 06:47:40
+Downloaded=2025-11-19 03:12:47
+3D=Y
