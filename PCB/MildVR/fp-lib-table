@@ -8,4 +8,6 @@
   (lib (name "(DSI) WP7B-S040VA1-R6000")(type "KiCad")(uri "${KIPRJMOD}/(DSI) WP7B-S040VA1-R6000.pretty")(options "")(descr ""))
   (lib (name "AP7365-WG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7365-WG-7.pretty")(options "")(descr ""))
   (lib (name "BSS138")(type "KiCad")(uri "${KIPRJMOD}/BSS138.pretty")(options "")(descr ""))
+  (lib (name "ZF5S-15-03-T-WT")(type "KiCad")(uri "${KIPRJMOD}/ZF5S-15-03-T-WT.pretty")(options "")(descr ""))
+  (lib (name "DF40C-100DS-0.4V_51")(type "KiCad")(uri "${KIPRJMOD}/DF40C-100DS-0.4V_51.pretty")(options "")(descr ""))
 )
