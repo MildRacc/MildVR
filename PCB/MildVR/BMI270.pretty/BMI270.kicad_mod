@@ -331,4 +331,15 @@
 		(uuid "5641c2e3-8248-4c77-995b-6b272fcfb374")
 	)
 	(embedded_fonts no)
+	(model "/home/sashad/Documents/Projects/MildVR/PCB/Imports/BMI270/3D/BMI270.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

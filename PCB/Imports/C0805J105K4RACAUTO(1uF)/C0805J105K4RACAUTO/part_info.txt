@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C0805J105K4RACAUTO
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2025-11-24 10:38:12
+Downloaded=2025-11-28 20:39:42
+3D=Y

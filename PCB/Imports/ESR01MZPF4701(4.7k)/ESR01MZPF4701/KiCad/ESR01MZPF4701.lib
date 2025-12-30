@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ESR01MZPF4701
+#/16315221/1775906/2.50/2/0/Resistor
+DEF ESR01MZPF4701 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ESR01MZPF4701" 550 150 50 H V L CNN
+F2 "RESC1005X40N" 550 50 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" 550 -50 50 H I L CNN
+F4 "4.7 kOhms +/-1% 0.2W, 1/5W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "755-ESR01MZPF4701" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/ESR01MZPF4701?qs=MyNHzdoqoQLim%2FrMNNwOaA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ESR01MZPF4701" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=ESR01MZPF4701
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2024-09-26 03:50:09
+Downloaded=2025-11-28 19:38:17
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=KAF21BR71H104JM
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2024-08-07 03:30:39
+Downloaded=2025-11-28 19:16:15
+3D=Y

@@ -1,0 +1,171 @@
+(footprint "CAPC2012X94L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0805 (Thickness 0.94)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "0874f1c3-279c-4595-b6d9-2cf86e4b403f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC2012X94L"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2132a248-50a0-48be-9a0c-d249fa7fc23e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f05d84-3af6-42bb-be17-7f66983f58f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4e3e49b-7bdf-485a-857d-fb1a4db50768")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.32 -0.83)
+		(end 1.32 -0.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b66c020-78cf-43dc-bf48-a9c134823c71")
+	)
+	(fp_line
+		(start -1.32 0.83)
+		(end -1.32 -0.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d82e433-877d-44b7-be27-12275cc811f2")
+	)
+	(fp_line
+		(start 1.32 -0.83)
+		(end 1.32 0.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7072fa2-c87b-4a93-a38b-d45aefcbb476")
+	)
+	(fp_line
+		(start 1.32 0.83)
+		(end -1.32 0.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e5b8275-2e1b-49f7-9362-99c878ff812c")
+	)
+	(fp_line
+		(start -1.005 -0.625)
+		(end 1.005 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e42ddc6e-f901-411b-bca4-e5aa54d7647b")
+	)
+	(fp_line
+		(start -1.005 0.625)
+		(end -1.005 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02569d3d-521f-4f4b-b89f-2e552b952aaf")
+	)
+	(fp_line
+		(start 1.005 -0.625)
+		(end 1.005 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "793b529a-12fc-4da3-abab-78f4d3a012ca")
+	)
+	(fp_line
+		(start 1.005 0.625)
+		(end -1.005 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4342b40c-4161-4c10-818d-7fc1af4225da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3d5d0bc5-bfeb-4df5-93d2-72577be258e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.76 0)
+		(size 0.92 1.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7184de0f-368e-4b5c-8f1c-39da7cb19dff")
+	)
+	(pad "2" smd rect
+		(at 0.76 0)
+		(size 0.92 1.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "098854ae-24d7-4608-9013-face4dc6a9f7")
+	)
+	(embedded_fonts no)
+	(model "/home/sashad/Documents/Projects/MildVR/PCB/Imports/KAF21BR71H104JM(100nF)/KAF21BR71H104JM/3D/KAF21BR71H104JM.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

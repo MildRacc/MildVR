@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=C1005NP01H102J050BA
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=4.2
+Released=2023-03-07 09:27:33
+Downloaded=2025-11-28 20:51:18
+3D=Y
