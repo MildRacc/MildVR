@@ -10,4 +10,8 @@
   (lib (name "BSS138")(type "KiCad")(uri "${KIPRJMOD}/BSS138.kicad_sym")(options "")(descr ""))
   (lib (name "ZF5S-15-03-T-WT")(type "KiCad")(uri "${KIPRJMOD}/ZF5S-15-03-T-WT.kicad_sym")(options "")(descr ""))
   (lib (name "DF40C-100DS-0.4V_51")(type "KiCad")(uri "${KIPRJMOD}/DF40C-100DS-0.4V_51.kicad_sym")(options "")(descr ""))
+  (lib (name "(PCIe)MDT420E03001")(type "KiCad")(uri "${KIPRJMOD}/(PCIe)MDT420E03001.kicad_sym")(options "")(descr ""))
+  (lib (name "(CMC)DLW21SZ900HQ2L")(type "KiCad")(uri "${KIPRJMOD}/(CMC)DLW21SZ900HQ2L.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD401DPYR")(type "KiCad")(uri "${KIPRJMOD}/ESD401DPYR.kicad_sym")(options "")(descr ""))
+  (lib (name "(Pump)LM27761DSGR")(type "KiCad")(uri "${KIPRJMOD}/(Pump)LM27761DSGR.kicad_sym")(options "")(descr ""))
 )

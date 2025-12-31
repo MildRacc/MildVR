@@ -18,4 +18,8 @@
   (lib (name "ESR01MZPF4701(4.7k)")(type "KiCad")(uri "${KIPRJMOD}/ESR01MZPF4701(4.7k).pretty")(options "")(descr ""))
   (lib (name "C0805J105K4RACAUTO(1uF)")(type "KiCad")(uri "${KIPRJMOD}/C0805J105K4RACAUTO(1uF).pretty")(options "")(descr ""))
   (lib (name "C1005NP01H102J050BA(1nF)")(type "KiCad")(uri "${KIPRJMOD}/C1005NP01H102J050BA(1nF).pretty")(options "")(descr ""))
+  (lib (name "(PCIe)MDT420E03001")(type "KiCad")(uri "${KIPRJMOD}/(PCIe)MDT420E03001.pretty")(options "")(descr ""))
+  (lib (name "(CMC)DLW21SZ900HQ2L")(type "KiCad")(uri "${KIPRJMOD}/(CMC)DLW21SZ900HQ2L.pretty")(options "")(descr ""))
+  (lib (name "ESD401DPYR")(type "KiCad")(uri "${KIPRJMOD}/ESD401DPYR.pretty")(options "")(descr ""))
+  (lib (name "(Pump)LM27761DSGR")(type "KiCad")(uri "${KIPRJMOD}/(Pump)LM27761DSGR.pretty")(options "")(descr ""))
 )
